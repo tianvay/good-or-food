@@ -49,6 +49,12 @@ h6, .h6 {
 }
 
 /* Nav links */
+// Logo left, the rest to the right
+.navbar > .container-fluid{
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-link {
   position: relative;
   padding: 1rem;

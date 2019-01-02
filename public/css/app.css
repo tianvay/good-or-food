@@ -51,6 +51,15 @@ h6,
 
 /* Nav links */
 
+.navbar > .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .nav-link {
   position: relative;
   padding: 1rem;

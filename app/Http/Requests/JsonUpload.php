@@ -24,7 +24,7 @@ class JsonUpload extends FormRequest
     public function rules()
     {
         return [
-            'json' => 'mimes:json|size:<1500',
+            'json' => 'mimes:json|size:<3000',
 
         ];
     }
